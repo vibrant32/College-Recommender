@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "360970540744",
+    "project_id": "dsecollegerecommender",
+    "storage_bucket": "dsecollegerecommender.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360970540744:android:befc9d6c32a52b98aff7fd",
+        "android_client_info": {
+          "package_name": "com.example.dsecollegerecommender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360970540744-aokv6e614qet5va0u261g0ffs4lroo85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoQSKPcoXPr-IAbaggIM-3KOJjqKq6yD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360970540744-aokv6e614qet5va0u261g0ffs4lroo85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

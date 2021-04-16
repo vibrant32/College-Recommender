@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="6dp"
+    android:elevation="4dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@color/cardbg"
+        >
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dtecode"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="College Code"
+            android:textColor="@color/headercolor"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/collegename"
+            android:textSize="18sp"
+            android:text="College name"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:textSize="18sp"
+            android:text="College Location"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/branch"
+            android:textSize="18sp"
+            android:text="Branch"
+            android:layout_marginTop="3dp"
+            />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/category"
+            android:textSize="18sp"
+            android:text="Cutoff"
+            android:layout_marginTop="3dp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

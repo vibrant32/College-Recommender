@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DSECollegeRecommender</string>
+    <string name="enteraggregate">Enter Aggregate</string>
+    <string name="submit">Submit</string>
+    <string name="open">OPEN</string>
+    <string name="obc">OBC</string>
+    <string name="sc">SC</string>
+    <string name="st">ST</string>
+    <string name="vj_nt">VJNT</string>
+    <string name="ews">Ews</string>
+    <string name="aurangabad">Aurangabad</string>
+    <string name="nanded">Nanded</string>
+    <string name="nashik">Nashik</string>
+    <string name="ahmednagar">Ahmednagar</string>
+    <string name="amravati">Amravati</string>
+    <string name="pune">Pune</string>
+    <string name="nagpur">Nagpur</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="sangli">Sangli</string>
+</resources>

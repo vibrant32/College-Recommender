@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/studentpercentage"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:ems="10"
+        android:hint="@string/enteraggregate"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="120dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/submitdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@id/checkBoxEight"
+        android:text="@string/submit"
+        android:layout_marginStart="150dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogrpOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentpercentage"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="13dp"
+        android:orientation="vertical"
+        android:layout_marginStart="119dp">
+
+        <RadioButton
+            android:id="@+id/Open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open" />
+        <RadioButton
+            android:id="@+id/Obc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obc" />
+        <RadioButton
+            android:id="@+id/Sc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sc" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radiogrpTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/studentpercentage"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="200dp">
+        <RadioButton
+            android:id="@+id/St"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st" />
+
+        <RadioButton
+            android:id="@+id/Vjnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vj_nt" />
+        <RadioButton
+            android:id="@+id/Ews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ews" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pune"
+        android:layout_below="@id/radiogrpOne"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="60dp" />
+    <CheckBox
+        android:id="@+id/checkBoxTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amravati"
+        android:layout_below="@id/radiogrpOne"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="140dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ahmednagar"
+        android:layout_below="@id/radiogrpOne"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="233dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nashik"
+        android:layout_below="@id/checkBoxOne"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="60dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nanded"
+        android:layout_below="@id/checkBoxTwo"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="140dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aurangabad"
+        android:layout_below="@id/checkBoxThree"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="233dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nagpur"
+        android:layout_below="@id/checkBoxFour"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="60dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mumbai"
+        android:layout_below="@id/checkBoxFive"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="140dp" />
+
+    <CheckBox
+        android:id="@+id/checkboxNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sangli"
+        android:layout_below="@id/checkBoxSix"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="233dp" />
+
+</RelativeLayout>
